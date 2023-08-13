@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: red;
+    margin:10px;
+    padding:10px;
+}
+.blood-bank-1{
+    display:inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+.blood-bank-2{
+    display: inline-block;
+    margin:20 px;
+    padding: 20px;
+
+}
+.blood-bank-3{
+    display:inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+.blood-bank-4{
+    display:inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+body{
+    background-color: #6aff86;
+}
+
+
+
+
+

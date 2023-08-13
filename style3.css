@@ -1,0 +1,61 @@
+body{background-image: url('c:\Users\Ayush\Downloads\BLOODDONATION.jpg');
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d02027;
+  background-image: url("6-01.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+  
+
+
+.container {
+  max-width:max-content;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+h1 {
+  font-family:'Anton', sans-serif;
+color: #FF4242;
+text-align: center;
+padding: 1rem;
+text-shadow: .4rem .4rem 0 rgba(0,0,0,.2);
+font-size:60px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  color: #000000;
+}
+
+p {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  text-align: left;
+  color: #e12f2f;
+  line-height: 2;
+}
+
+.volunteer-link {
+    display: inline-block;
+    margin-top: .5rem;
+    text-size-adjust: 2px;
+    padding: .5rem;
+    padding-left: .5  rem;
+    border: .2rem solid #FF4242 ;
+    border-radius: .5rem;
+    box-shadow:.5rem .5rem 0 rgba(22,160,133,.2);
+    color:#FF4242;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.volunteer-link.hover{
+    background: #FF4242;
+    color: #fff;
+}

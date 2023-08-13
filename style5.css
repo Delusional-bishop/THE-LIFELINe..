@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: rgb(254, 8, 8);
+    font-family:'Anton', sans-serif;
+    padding: 1rem;
+    text-shadow: .4rem .4rem 0 rgba(0,0,0,.2);
+    font-size:60px;
+    margin:10px;
+    padding:10px;
+}
+.blood-bank-1{
+    display:inline-block;
+    margin: 45px;
+    padding: 20px;
+}
+.blood-bank-2{
+    display: inline-block;
+    margin:45px;
+    padding: 20px;
+
+}
+.blood-bank-3{
+    display:inline-block;
+    margin: 45px;
+    padding: 20px;
+}
+.blood-bank-4{
+    display:inline-block;
+    margin: 45px;
+    padding: 20px;
+}
+body{
+   background-color: rgb(255, 255, 255);
+}
+
+
+
+
+

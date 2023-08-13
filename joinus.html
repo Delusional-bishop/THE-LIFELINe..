@@ -1,0 +1,50 @@
+<html>
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+
+        form {
+            width: 50%;
+            margin: auto;
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 80%;
+        }
+
+        button {
+            display: block;
+            margin-top: 20px;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Join Us as a Blood Donor</h1>
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="blood_group">Blood Group:</label>
+        <input type="text" id="blood_group" name="blood_group" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url('12_Mesa de trabajo 1 copia.jpg');
+    background-repeat: no-repeat;
+    background-attachment:calc(1);
+    background-size: cover;
+  }
+
+  h1 {
+    font-family:'Anton', sans-serif;
+    color: #FF4242;
+    text-align: center;
+    padding: 1rem;
+    text-shadow: .4rem .4rem 0 rgba(0,0,0,.2);
+    font-size:60px;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+
+  input, select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+ 
+  a{border:1px solid#007bff;
+    background:#00b7ff;
+    padding: 10px;
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  a:hover{
+    background: #ffff;
+    color: #00b7ff;
+
+  }
